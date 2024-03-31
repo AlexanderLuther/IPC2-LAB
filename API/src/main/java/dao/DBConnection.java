@@ -11,7 +11,7 @@ public final class DBConnection {
     private final String HOST = "localhost";
     private final String PORT = "3306";
     private final String USER = "root";
-    private final String PASSWORD = "Xela0806.";
+    private final String PASSWORD = "pass";
     private final String DATABASE = "zoo";
     private final String URL = "jdbc:mysql://" +HOST+ ":" +PORT+  "/" + DATABASE;
 
