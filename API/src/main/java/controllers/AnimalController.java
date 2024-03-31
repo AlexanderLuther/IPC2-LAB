@@ -12,7 +12,7 @@ import util.ApiException;
 import java.io.IOException;
 import java.io.PrintWriter;
 
-@WebServlet(name = "AnimalController", urlPatterns = "/animal/*")
+@WebServlet(name = "AnimalController", urlPatterns = "/animals/*")
 public class AnimalController extends HttpServlet {
 
     private AnimalService animalService = new AnimalService();
